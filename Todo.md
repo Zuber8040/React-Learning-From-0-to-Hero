@@ -17,3 +17,7 @@ React.createElements("h1",{className:"Hello"},"hello this is Element) == <h1 cla
 
 - To create an element without JSX, call createElement with some type, props, and children 
 
+
+
+Day 2 => 
+
