@@ -28,4 +28,13 @@ for example : https://www.zuberustad.in
 
 5.  What is diference between React and ReactDOM 
 
-- 
+- The react package contains React.createElement, React.createClass and React.Component, React.PropTypes, React.Children, and the other helpers related to elements and component classes. We think of these as the isomorphic or universal helpers that you need to build components.
+
+- The react-dom package contains ReactDOM.render, ReactDOM.unmountComponentAtNode, and ReactDOM.findDOMNode, and in react-dom/server we have server-side rendering support with ReactDOMServer.renderToString and ReactDOMServer.renderToStaticMarkup.
+
+
+6.  What is difference between react.development.js and react.production.js files via CDN? 
+
+- react.development.js - More developer friendly, readable, will take more size.
+- react.production.js - Minified code that is not developer friendly as it focused on decreasing in file size, code efficiency.
+- CDN is the Content Delivery Network that provides you with the respective JS file online
